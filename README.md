@@ -11,6 +11,7 @@ In linear algebra, the linear system solution algorithm known as Gauss-Jordan El
 PARALELISM
 --------------------------------------------------
 The first step in developing the parallel algorithm is to decompose the problem into tasks that can be performed concurrently. One of the forms of decomposition can be illustrated in the form of a directed and acyclic graph (task dependency graph) with nodes that correspond to the tasks and edges which indicate the result of a task for the next processing.
+
 ![Screenshot 2](img/img2.png)
 
 PARTITIONING
